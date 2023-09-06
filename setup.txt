@@ -1,0 +1,17 @@
+REQUISITOS NECESARIOS
+
+1. debemos de crear en nuestro mySQL una base de datos llamada teis_taller1
+2. nos sercioramos que la configuración del archivo .env coincida con lo siguiente:
+DB_DATABASE=teis_taller1
+DB_USERNAME=root
+DB_PASSWORD=
+
+de lo contrario adapte su usuario y contraseña
+3. corremos la migración
+php artisan migrate
+
+AL MOMENTO DE ENTRAR A LA APLICACIÓN
+
+- acceda a la ruta http://127.0.0.1:8000/ 
+	- OJO: verifique que si se abra en el puerto 8000, de lo contrario adecúelo
+- desde allí contará con el acceso a las funciones de crear y listar (nav bar) y la opción de volver al menú principal desde cualquier apartado ('home' o el titulo de 'Offer Class') 
